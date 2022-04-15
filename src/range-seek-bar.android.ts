@@ -208,8 +208,8 @@ function initRangeSeekbarFinalValueListener() {
         return;
     }
 
-    @Interfaces([com.crystal.crystalrangeseekbar.interfaces.OnRangeSeekbarFinalValueListener])
     @NativeClass()
+    @Interfaces([com.crystal.crystalrangeseekbar.interfaces.OnRangeSeekbarFinalValueListener])
     class RangeSeekbarFinalValueListenerImpl extends java.lang.Object implements com.crystal.crystalrangeseekbar.interfaces.OnRangeSeekbarFinalValueListener {
 
         constructor(private owner: WeakRef<RangeSeekBar>) {

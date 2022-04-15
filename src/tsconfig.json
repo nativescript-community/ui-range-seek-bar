@@ -3,33 +3,36 @@
         "target": "es2017",
         "module": "esnext",
         "moduleResolution": "node",
-        "declaration": true,
         "removeComments": true,
         "noLib": false,
-        "emitDecoratorMetadata": true,
+        "emitDecoratorMetadata": false,
         "experimentalDecorators": true,
-        "lib": [
-            "es2017", "dom"
-        ],
+        "lib": ["es2017", "dom"],
         "sourceMap": true,
         "pretty": true,
+        "jsx": "react",
         "allowUnreachableCode": false,
         "allowUnusedLabels": false,
         "noEmitHelpers": true,
         "noEmitOnError": false,
         "noImplicitAny": false,
         "noImplicitReturns": true,
-        "noImplicitUseStrict": false,
-        "noFallthroughCasesInSwitch": true
+        "noImplicitUseStrict": true,
+        "noFallthroughCasesInSwitch": true,
+        "skipDefaultLibCheck": true,
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true,
+        "preserveValueImports": true,
+        "esModuleInterop": true,
+        "plugins": [
+            {
+                "transform": "@nativescript/webpack/dist/transformers/NativeClass",
+                "type": "raw"
+            }
+        ],
     },
-    "plugins": [
-        {
-            "transform": "@nativescript/webpack/transformers/ns-transform-native-classes",
-            "type": "raw"
-        }
-    ],
-    "exclude": [
-        "node_modules"
-    ],
+
+    "include": ["./*.ts", "./angular/*.ts"],
+    "exclude": ["./node_modules", "./platforms"],
     "compileOnSave": false
 }

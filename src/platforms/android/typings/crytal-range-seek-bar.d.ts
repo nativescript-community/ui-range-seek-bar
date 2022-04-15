@@ -274,7 +274,7 @@ declare namespace com {
                         public static MIN: com.crystal.crystalrangeseekbar.widgets.CrystalRangeSeekbar.Thumb;
                         public static MAX: com.crystal.crystalrangeseekbar.widgets.CrystalRangeSeekbar.Thumb;
                         public static valueOf(param0: string): com.crystal.crystalrangeseekbar.widgets.CrystalRangeSeekbar.Thumb;
-                        public static values(): native.Array<com.crystal.crystalrangeseekbar.widgets.CrystalRangeSeekbar.Thumb>;
+                        public static values(): Array<com.crystal.crystalrangeseekbar.widgets.CrystalRangeSeekbar.Thumb>;
                     }
                 }
             }
@@ -404,7 +404,7 @@ declare namespace com {
                     export class Thumb {
                         public static MIN: com.crystal.crystalrangeseekbar.widgets.CrystalSeekbar.Thumb;
                         public static valueOf(param0: string): com.crystal.crystalrangeseekbar.widgets.CrystalSeekbar.Thumb;
-                        public static values(): native.Array<com.crystal.crystalrangeseekbar.widgets.CrystalSeekbar.Thumb>;
+                        public static values(): Array<com.crystal.crystalrangeseekbar.widgets.CrystalSeekbar.Thumb>;
                     }
                 }
             }

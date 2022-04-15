@@ -17,14 +17,6 @@ import {
     barHighlightColorCssProperty,
     thumbColorProperty,
     thumbColorCssProperty,
-    leftThumbColorProperty,
-    leftThumbColorCssProperty,
-    rightThumbColorProperty,
-    rightThumbColorCssProperty,
-    leftThumbHighlightProperty,
-    leftThumbHighlightCssProperty,
-    rightThumbHighlightProperty,
-    rightThumbHighlightCssProperty,
 } from "./range-seek-bar.common";
 
 import { Color, Utils } from '@nativescript/core';
