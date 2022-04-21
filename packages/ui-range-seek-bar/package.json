@@ -1,6 +1,6 @@
 {
     "name": "@nativescript-community/ui-range-seek-bar",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "description": "NativeScript Range Seek Bar widget",
     "main": "./index",
     "sideEffects": false,
@@ -37,7 +37,7 @@
     "author": {
         "name": "JK",
         "email": "lexuanhoang2506@gmail.com"
-      },
+    },
     "bugs": {
         "url": "https://github.com/nativescript-community/ui-range-seek-bar/issues"
     },
