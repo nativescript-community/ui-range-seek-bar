@@ -1,0 +1,9 @@
+{
+    "uses": [
+        "com.crystal.crystalrangeseekbar.widgets:CrystalRangeSeekbar*",
+        "com.crystal.crystalrangeseekbar.widgets.CrystalRangeSeekbar:DataType*",
+        "com.crystal.crystalrangeseekbar.interfaces:OnfinaValueChangedListener*",
+        "com.crystal.crystalrangeseekbar.interfaces:OnRangeSeekbarChangeListener*",
+        "com.crystal.crystalrangeseekbar.interfaces:OnfinaValueChangedListener*"
+    ]
+}

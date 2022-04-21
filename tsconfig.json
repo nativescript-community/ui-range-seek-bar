@@ -1,0 +1,9 @@
+{
+    "extends": "./tools/tsconfig",
+    "compilerOptions": {
+        "paths": {
+            "@nativescript-community/ui-range-seek-bar": ["src/ui-range-seek-bar"],
+            "@nativescript-community/ui-range-seek-bar/*": ["src/ui-range-seek-bar/*"],
+        }
+    }
+}

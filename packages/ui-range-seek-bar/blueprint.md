@@ -1,11 +1,24 @@
-# NativeScript Range Seek Bar
-A NativeScript Range Seek Bar widget.
+{{ load:../../tools/readme/edit-warning.md }}
+{{ template:title }}
+{{ template:badges }}
+{{ template:description }}
+
+| <img src="https://raw.githubusercontent.com/nativescript-community/ui-range-seek-bar/master/images/demo-ios.gif" height="500" /> | <img src="https://raw.githubusercontent.com/nativescript-community/ui-range-seek-bar/master/images/demo-android.gif" height="500" /> |
+| --- | ----------- |
+| iOS Demo | Android Demo |
+
+{{ template:toc }}
+
+## Installation
+Run the following command from the root of your project:
+
+`ns plugin add {{ pkg.name }}`
+
 ### Based on
 [TTRangeSlider ](https://github.com/TomThorpe/TTRangeSlider) for iOS
 
 [Crystal Range Seekbar](https://github.com/syedowaisali/crystal-range-seekbar) for Android
-## Installation
-Run `tns plugin add nativescript-range-seek-bar`
+
 ## API
 ### Events
 * **valueChanged**  
@@ -35,6 +48,7 @@ Gets or sets bar color of the Range Seek Bar.
 Gets or sets bar highlight color of the Range Seek Bar.
 * **thumbColor** - *Color*  
 Gets or sets color of two thumb.
+
 ## Usage in Angular
 - Import `NativeScriptUIRangeSeekBarModule` in `NgModule`:
 ```typescript
@@ -101,14 +115,13 @@ export class AppComponent {
 }
 
 ```
-## Demos
-This repository includes both Angular and plain NativeScript demos. In order to run those execute the following in your shell:
-```shell
-$ git clone https://github.com/HoangJK/nativescript-range-seek-bar.git
-$ cd nativescript-range-seek-bar/src
-$ npm install
-$ npm run demo.ios
-```
-This will run the plain NativeScript demo project on iOS. If you want to run it on Android simply use the .android instead of the .ios sufix.
 
-If you want to run the Angular demo simply use the demo.ios.ng.
+### Examples:
+
+- [Basic range-seek-bar](demo-snippets/vue/Basicrange-seek-bar.vue)
+  - A basic sliding range-seek-bar.
+- [All Sides](demo-snippets/vue/AllSides.vue)
+  - An example of range-seek-bars on all sides: left, right, top, bottom.
+
+{{ load:../../tools/readme/demos-and-development.md }}
+{{ load:../../tools/readme/questions.md }}

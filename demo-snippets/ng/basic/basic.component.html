@@ -1,0 +1,5 @@
+<StackLayout>
+    <RangeSeekBar [minValue]="rangeSeekBarProp.minValue" [maxValue]="rangeSeekBarProp.maxValue" [valueMin]="rangeSeekBarProp.valueMin"
+        [valueMax]="rangeSeekBarProp.valueMax" [minRange]="rangeSeekBarProp.minRange" [step]="rangeSeekBarProp.step"
+        (valueChanged)="valueChanged($event)" (finalValueChanged)="finalValueChanged($event)" class="range-seek-bar"></RangeSeekBar>
+</StackLayout>
