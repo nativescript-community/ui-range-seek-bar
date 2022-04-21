@@ -1,4 +1,4 @@
 {
-    "name": "@nativescript-community/ui-range-seek-bar",
-    "main": "index.js"
+  "name": "@nativescript-community/ui-range-seek-bar-angular",
+  "main": "index.js"
 }

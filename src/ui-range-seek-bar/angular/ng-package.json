@@ -1,0 +1,9 @@
+{
+    "dest": "../../../packages/ui-range-seek-bar/angular",
+    "lib": {
+      "entryFile": "index.ts"
+    },
+    "allowedNonPeerDependencies": [
+      "."
+    ]
+}

@@ -32,7 +32,7 @@
 <br />
 
 
-| <img src="https://raw.githubusercontent.com/nativescript-community/ui-drawer/master/images/demo-ios.gif" height="500" /> | <img src="https://raw.githubusercontent.com/nativescript-community/ui-drawer/master/images/demo-android.gif" height="500" /> |
+| <img src="https://raw.githubusercontent.com/nativescript-community/ui-range-seek-bar/master/images/demo-ios.gif" height="500" /> | <img src="https://raw.githubusercontent.com/nativescript-community/ui-range-seek-bar/master/images/demo-android.gif" height="500" /> |
 | --- | ----------- |
 | iOS Demo | Android Demo |
 
@@ -42,7 +42,6 @@
 ## Table of Contents
 
 * [Installation](#installation)
-* [Configuration](#configuration)
 	* [Based on](#based-on)
 * [API](#api)
 	* [Events](#events)
@@ -62,17 +61,6 @@
 Run the following command from the root of your project:
 
 `ns plugin add @nativescript-community/ui-range-seek-bar`
-
-
-[](#configuration)
-
-## Configuration
-For gestures to work, make sure to add the following code block inside the main application file (e.g. app.ts):
-
-```typescript
-import { install } from '@nativescript-community/ui-drawer';
-install();
-```
 
 ### Based on
 [TTRangeSlider ](https://github.com/TomThorpe/TTRangeSlider) for iOS
@@ -116,15 +104,15 @@ Gets or sets color of two thumb.
 [](#usage-in-angular)
 
 ## Usage in Angular
-- Import `RangeSeekBarModule` in `NgModule`:
+- Import `NativeScriptUIRangeSeekBarModule` in `NgModule`:
 ```typescript
-import { RangeSeekBarModule } from "nativescript-range-seek-bar/angular";
+import { NativeScriptUIRangeSeekBarModule } from "nativescript-range-seek-bar/angular";
 //......
 @NgModule({
 	//......
 	imports: [
         //......
-		RangeSeekBarModule,
+		NativeScriptUIRangeSeekBarModule,
         //......
 	],
     //......
@@ -184,10 +172,10 @@ export class AppComponent {
 
 ### Examples:
 
-- [Basic Drawer](demo-snippets/vue/BasicDrawer.vue)
-  - A basic sliding drawer.
+- [Basic range-seek-bar](demo-snippets/vue/Basicrange-seek-bar.vue)
+  - A basic sliding range-seek-bar.
 - [All Sides](demo-snippets/vue/AllSides.vue)
-  - An example of drawers on all sides: left, right, top, bottom.
+  - An example of range-seek-bars on all sides: left, right, top, bottom.
 
 
 [](#demos-and-development)
