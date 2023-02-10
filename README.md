@@ -10,7 +10,7 @@ Run `tns plugin add nativescript-range-seek-bar`
 ### Events
 * **valueChanged**  
 Triggered when user has changed minimum value or maximum value on the Range Seek Bar.
-* **finaValueChanged**  
+* **finalValueChanged**  
 Triggered when user has finished touch on the Range Seek Bar.
 ### Instance Properties
 * **minValue** - *Number*  
